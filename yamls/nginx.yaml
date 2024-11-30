@@ -5,11 +5,7 @@ metadata:
     app: nginx
   name: nginx
 spec:
-<<<<<<< HEAD
-  replicas: 7
-=======
   replicas: 2
->>>>>>> d30bac2 (2 commit)
   selector:
     matchLabels:
       app: nginx
